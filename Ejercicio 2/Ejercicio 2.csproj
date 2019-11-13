@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountManager\DAL\IAccountRepository.cs" />
+    <Compile Include="AccountManager\DAL\IClientRepository.cs" />
+    <Compile Include="AccountManager\DAL\IUnitOfWork.cs" />
     <Compile Include="AccountManager\Domain\Account.cs" />
     <Compile Include="AccountManager\Domain\AccountMovement.cs" />
     <Compile Include="AccountManager\IO\AccountMovementDTO.cs" />

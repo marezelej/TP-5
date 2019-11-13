@@ -9,7 +9,7 @@ namespace AccountManager.Domain
     /// <summary>
     /// Representa la cuenta bancaria de un cliente
     /// </summary>
-    class Account
+    public class Account
     {
         public int Id { set; get; }
         public Client Client { set; get; }

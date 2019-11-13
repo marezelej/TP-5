@@ -10,7 +10,7 @@ namespace AccountManager.DAL
     /// Representa un repositorio de entidades de clase TEntity
     /// </summary>
     /// <typeparam name="TEntity"></typeparam>
-    interface IRepository<TEntity> where TEntity : class
+    public interface IRepository<TEntity> where TEntity : class
     {
         /// <summary>
         /// Agrega una entidad al repositorio
