@@ -43,12 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account.cs" />
-    <Compile Include="AccountMovement.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="Document.cs" />
-    <Compile Include="DocumentType.cs" />
-    <Compile Include="IRepository.cs" />
+    <Compile Include="AccountManager\Domain\Account.cs" />
+    <Compile Include="AccountManager\Domain\AccountMovement.cs" />
+    <Compile Include="AccountManager\IO\AccountMovementDTO.cs" />
+    <Compile Include="AccountManager\IO\AcountDTO.cs" />
+    <Compile Include="AccountManager\Bank.cs" />
+    <Compile Include="AccountManager\Domain\Client.cs" />
+    <Compile Include="AccountManager\Domain\Document.cs" />
+    <Compile Include="AccountManager\Domain\DocumentType.cs" />
+    <Compile Include="AccountManager\DAL\IRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
