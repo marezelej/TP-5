@@ -15,6 +15,7 @@ namespace AccountManager.Domain
         public string FirstName { set; get; }
         public string LastName { set; get; }
         public Document Document { set; get; }
-        public IList<Account> Accounts { set; get; }
+        public virtual IList<Account> Accounts { set; get; }
+        //Le agregamos el modificador virtual para implementar el lazy-loading,
     }
 }

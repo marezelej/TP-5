@@ -15,7 +15,8 @@ namespace AccountManager.Domain
         public Client Client { set; get; }
         public string Name { set; get; }
         public double OverdraftLimit { set; get; }
-        public IList<AccountMovement> Movements { set; get; }
+        public virtual IList<AccountMovement> Movements { set; get; }
+        //El virtual es para el lazy loading de Entity Framewokr.
         
         /// <summary>
         /// Calcula el balance de la cuenta, evaluando los distintos movimientos realizados

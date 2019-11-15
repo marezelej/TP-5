@@ -8,6 +8,7 @@ namespace AccountManager
            
         public IEnumerable<AccountDTO> GetClientAccounts(int pClientId)
         {
+            List<AccountMovmentDTO> mAccountMovements = new List<AccountMovmentDTO>();
 
         }
         public IEnumerable<AccountMovementDTO> GetAccountMovements(int pAcountID)
